@@ -11,7 +11,7 @@ public class GlobalException {
     @ExceptionHandler(Exception.class)
     @ResponseBody
     public R exception(Exception e){
-        return R.Error().message("恭喜你出发了全局异常管理,你应该为此感到荣幸!!!");
+        return R.Error().message(e.getMessage());
     }
     @ExceptionHandler(MyException.class)
     @ResponseBody
