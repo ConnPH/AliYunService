@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import vip.ph.aliyun.annotation.Idempotent;
 import vip.ph.aliyun.service.OssUploadService;
 import vip.ph.aliyun.utils.R;
 
